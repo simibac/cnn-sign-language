@@ -1,0 +1,7 @@
+def factorize(num):
+    if num==63:
+        return 36
+    elif num < 91 and num > 64:
+        return num - 55
+    elif num < 58 and num > 47:
+        return num - 42

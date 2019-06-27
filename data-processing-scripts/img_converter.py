@@ -27,7 +27,7 @@ if __name__ == "__main__":
             # create list of black values
             pix_array = [x[0] for x in pixel_values]
 
-            print(len(pix_array))
-
             # append to csv
             writer.writerow([label] + pix_array)
+    
+    
